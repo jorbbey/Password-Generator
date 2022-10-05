@@ -1,0 +1,103 @@
+      * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+      }
+
+      .container {
+           padding: 20px;
+           margin: 20px auto;
+           height: auto;
+           width: 95%;
+           background: lightblue;
+           left: 20px;
+           top: 50px;
+           border-radius: 30px;
+      }
+
+           .container .text{
+               margin: 0 auto;
+               max-width: 75%;
+           }
+
+      .container .text h3 {
+           text-transform: uppercase;
+           color: blue;
+           margin-top: 55px;
+           margin-left: 20px;
+      }
+
+      .container .text>input[type="text"] {
+           outline: none;
+           border: none;
+           width: 100%;
+           padding: 15px;
+           border-radius: 20px;
+           margin-top: 65px;
+           border: 2px solid slateblue;
+           text-align: center;
+           cursor: pointer;
+      }
+
+      .container .btn2 {
+           font-size: 15px;
+           width: 120px;
+           height: 50px;
+           text-align: center;
+           background: #0c81ee;
+           color: rgb(255, 255, 255);
+          box-shadow: 2px solid rgb(20, 139, 250);
+           border-radius: 10px;
+           padding-top: 15px;
+           cursor: pointer;
+      }
+
+      .container .buttons {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           margin-top: 50px;
+           max-width: 100%;
+           height: auto;
+      }
+
+      .container .buttons .generate-btn {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+           height: auto;
+      }
+
+
+           .container .buttons .generate-btn .head{
+               text-align: center;
+               color: blue;
+               font-weight: 600;
+               margin: 25px auto;
+           }
+
+      .container .buttons .generate-btn .button {
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           width: 85%;
+           height: 50px;
+           margin: 10px auto;
+           background-color: #0c81ee;
+           color: #fff;
+           border-radius: 5px;
+           transition: 1s;
+           cursor: pointer;
+      }
+
+           .container .buttons .generate-btn .button:hover{
+               background-color: #000;
+           }
+
+      #button:hover {
+           color: white;
+           background: black;
+      }
+
+      
